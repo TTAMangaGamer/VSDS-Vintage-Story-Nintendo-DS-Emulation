@@ -1,0 +1,31 @@
+{
+  "code": "nintendods",
+  "class": "ItemNintendoDS",
+  "maxstacksize": 1,
+  "shape": {
+    "base": "item/nintendods"
+  },
+  "textures": {
+    "shell": { "base": "item/nintendods_shell" }
+  },
+  "creativeinventory": {
+    "general": [ "*" ],
+    "items": [ "*" ]
+  },
+  "heldTpIdleAnimation": "holdbothhands",
+  "fpHandTransform": {
+    "translation": { "x": -0.25, "y": -0.1, "z": -0.45 },
+    "rotation": { "x": 15, "y": -90, "z": 0 },
+    "scale": 0.22
+  },
+    "tpHandTransform": {
+    "translation": { "x": -2.69, "y": -1.41, "z": -1.08 },
+    "rotation": { "x": -96, "y": 8, "z": -106 },
+    "scale": 0.31
+  },
+  "guiTransform": {
+    "translation": { "x": 0, "y": 0, "z": 0 },
+    "rotation": { "x": -25, "y": 45, "z": 0 },
+    "scale": 0.45
+  }
+}

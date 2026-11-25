@@ -1,0 +1,14 @@
+{
+  "type": "code",
+  "modid": "vsds",
+  "name": "Vintage Story DS",
+  "authors": [
+    "TTAMangaGamer"
+  ],
+  "description": "Playable dual-screen Nintendo DS handheld with touch support and local multiplayer link.",
+  "version": "0.1.0",
+  "side": "Universal",
+  "dependencies": {
+    "game": "1.22.7"
+  }
+}

@@ -1,0 +1,429 @@
+{
+	"editor": {
+		"backDropShape": "",
+		"collapsedPaths": "",
+		"allAngles": false,
+		"entityTextureMode": false,
+		"singleTexture": false,
+		"vsFormatConverted": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+		"nintendods_shell.png": [64, 64]
+	},
+	"textures": {
+		"nintendods_shell.png": "item/nintendods_shell"
+	},
+	"elements": [
+		{
+			"name": "bottom_shell",
+			"from": [8, 2.1, 8.5],
+			"to": [8, 2.1, 8.5],
+			"rotationOrigin": [8, 2.1, 8.5],
+			"children": [
+				{
+					"name": "hingeright",
+					"from": [-8, -0.6, 3.2],
+					"to": [-6, 0.4, 4.5],
+					"faces": {
+						"north": {"texture": "#nintendods_shell.png", "uv": [12, 30, 14, 31]},
+						"east": {"texture": "#nintendods_shell.png", "uv": [26, 30, 27.5, 31]},
+						"south": {"texture": "#nintendods_shell.png", "uv": [14, 30, 16, 31]},
+						"west": {"texture": "#nintendods_shell.png", "uv": [30, 26, 31.5, 27]},
+						"up": {"texture": "#nintendods_shell.png", "uv": [4, 30, 6, 31.5]},
+						"down": {"texture": "#nintendods_shell.png", "uv": [6, 30, 8, 31.5], "rotation": 180}
+					}
+				},
+				{
+					"name": "hingeleft",
+					"from": [6, -0.6, 3.2],
+					"to": [8, 0.4, 4.5],
+					"faces": {
+						"north": {"texture": "#nintendods_shell.png", "uv": [16, 30, 18, 31]},
+						"east": {"texture": "#nintendods_shell.png", "uv": [30, 27, 31.5, 28]},
+						"south": {"texture": "#nintendods_shell.png", "uv": [18, 30, 20, 31]},
+						"west": {"texture": "#nintendods_shell.png", "uv": [28, 30, 29.5, 31]},
+						"up": {"texture": "#nintendods_shell.png", "uv": [8, 30, 10, 31.5]},
+						"down": {"texture": "#nintendods_shell.png", "uv": [10, 30, 12, 31.5], "rotation": 180}
+					}
+				},
+				{
+					"name": "body",
+					"from": [-8, -2.1, -5.5],
+					"to": [8, -0.6, 4.5],
+					"faces": {
+						"north": {"texture": "#nintendods_shell.png", "uv": [16, 18, 32, 19.5]},
+						"east": {"texture": "#nintendods_shell.png", "uv": [15, 22, 25, 23.5]},
+						"south": {"texture": "#nintendods_shell.png", "uv": [0, 20, 16, 21.5]},
+						"west": {"texture": "#nintendods_shell.png", "uv": [0, 24, 10, 25.5]},
+						"up": {"texture": "#nintendods_shell.png", "uv": [0, 0, 16, 10]},
+						"down": {"texture": "#nintendods_shell.png", "uv": [0, 10, 16, 20], "rotation": 180}
+					}
+				},
+				{
+					"name": "cube",
+					"from": [-6.5, -1.2, 0.9],
+					"to": [-5.7, -0.4, 1.7],
+					"faces": {
+						"north": {"texture": "#nintendods_shell.png", "uv": [31, 14, 32, 15]},
+						"east": {"texture": "#nintendods_shell.png", "uv": [15, 31, 16, 32]},
+						"south": {"texture": "#nintendods_shell.png", "uv": [31, 15, 32, 16]},
+						"west": {"texture": "#nintendods_shell.png", "uv": [16, 31, 17, 32]},
+						"up": {"texture": "#nintendods_shell.png", "uv": [31, 16, 32, 17]},
+						"down": {"texture": "#nintendods_shell.png", "uv": [17, 31, 18, 32], "rotation": 180}
+					}
+				},
+				{
+					"name": "cube",
+					"from": [5.8, -1.2, -0.8],
+					"to": [6.6, -0.4, 1.4],
+					"faces": {
+						"north": {"texture": "#nintendods_shell.png", "uv": [31, 17, 32, 18]},
+						"east": {"texture": "#nintendods_shell.png", "uv": [20, 30, 22, 31]},
+						"south": {"texture": "#nintendods_shell.png", "uv": [18, 31, 19, 32]},
+						"west": {"texture": "#nintendods_shell.png", "uv": [22, 30, 24, 31]},
+						"up": {"texture": "#nintendods_shell.png", "uv": [24, 30, 25, 32]},
+						"down": {"texture": "#nintendods_shell.png", "uv": [25, 30, 26, 32], "rotation": 180}
+					}
+				},
+				{
+					"name": "cube",
+					"from": [-6.5, -1.2, -0.9],
+					"to": [-5.7, -0.4, -0.1],
+					"faces": {
+						"north": {"texture": "#nintendods_shell.png", "uv": [19, 31, 20, 32]},
+						"east": {"texture": "#nintendods_shell.png", "uv": [20, 31, 21, 32]},
+						"south": {"texture": "#nintendods_shell.png", "uv": [31, 20, 32, 21]},
+						"west": {"texture": "#nintendods_shell.png", "uv": [21, 31, 22, 32]},
+						"up": {"texture": "#nintendods_shell.png", "uv": [31, 21, 32, 22]},
+						"down": {"texture": "#nintendods_shell.png", "uv": [22, 31, 23, 32], "rotation": 180}
+					}
+				},
+				{
+					"name": "cube",
+					"from": [5, -1.2, -0.1],
+					"to": [5.8, -0.4, 0.7],
+					"faces": {
+						"north": {"texture": "#nintendods_shell.png", "uv": [23, 31, 24, 32]},
+						"east": {"texture": "#nintendods_shell.png", "uv": [26, 31, 27, 32]},
+						"south": {"texture": "#nintendods_shell.png", "uv": [27, 31, 28, 32]},
+						"west": {"texture": "#nintendods_shell.png", "uv": [28, 31, 29, 32]},
+						"up": {"texture": "#nintendods_shell.png", "uv": [29, 31, 30, 32]},
+						"down": {"texture": "#nintendods_shell.png", "uv": [30, 31, 31, 32], "rotation": 180}
+					}
+				},
+				{
+					"name": "cube",
+					"from": [6.6, -1.2, -0.1],
+					"to": [7.4, -0.4, 0.7],
+					"faces": {
+						"north": {"texture": "#nintendods_shell.png", "uv": [31, 31, 32, 32]},
+						"east": {"texture": "#nintendods_shell.png", "uv": [4, 32, 5, 33]},
+						"south": {"texture": "#nintendods_shell.png", "uv": [5, 32, 6, 33]},
+						"west": {"texture": "#nintendods_shell.png", "uv": [6, 32, 7, 33]},
+						"up": {"texture": "#nintendods_shell.png", "uv": [7, 32, 8, 33]},
+						"down": {"texture": "#nintendods_shell.png", "uv": [8, 32, 9, 33], "rotation": 180}
+					}
+				},
+				{
+					"name": "cube",
+					"from": [-7.4, -1.2, 0],
+					"to": [-6.6, -0.4, 0.8],
+					"faces": {
+						"north": {"texture": "#nintendods_shell.png", "uv": [9, 32, 10, 33]},
+						"east": {"texture": "#nintendods_shell.png", "uv": [10, 32, 11, 33]},
+						"south": {"texture": "#nintendods_shell.png", "uv": [11, 32, 12, 33]},
+						"west": {"texture": "#nintendods_shell.png", "uv": [12, 32, 13, 33]},
+						"up": {"texture": "#nintendods_shell.png", "uv": [13, 32, 14, 33]},
+						"down": {"texture": "#nintendods_shell.png", "uv": [14, 32, 15, 33], "rotation": 180}
+					}
+				},
+				{
+					"name": "cube",
+					"from": [-5.6, -1.2, 0],
+					"to": [-4.8, -0.4, 0.8],
+					"faces": {
+						"north": {"texture": "#nintendods_shell.png", "uv": [32, 14, 33, 15]},
+						"east": {"texture": "#nintendods_shell.png", "uv": [15, 32, 16, 33]},
+						"south": {"texture": "#nintendods_shell.png", "uv": [32, 15, 33, 16]},
+						"west": {"texture": "#nintendods_shell.png", "uv": [16, 32, 17, 33]},
+						"up": {"texture": "#nintendods_shell.png", "uv": [32, 16, 33, 17]},
+						"down": {"texture": "#nintendods_shell.png", "uv": [17, 32, 18, 33], "rotation": 180}
+					}
+				},
+				{
+					"name": "cube",
+					"from": [-5, -1.1, -3.5],
+					"to": [-4.5, -0.4, -3],
+					"faces": {
+						"north": {"texture": "#nintendods_shell.png", "uv": [18, 33, 18.5, 33.5]},
+						"east": {"texture": "#nintendods_shell.png", "uv": [33, 18, 33.5, 18.5]},
+						"south": {"texture": "#nintendods_shell.png", "uv": [33, 19, 33.5, 19.5]},
+						"west": {"texture": "#nintendods_shell.png", "uv": [33, 20, 33.5, 20.5]},
+						"up": {"texture": "#nintendods_shell.png", "uv": [33, 21, 33.5, 21.5]},
+						"down": {"texture": "#nintendods_shell.png", "uv": [33, 26, 33.5, 26.5], "rotation": 180}
+					}
+				},
+				{
+					"name": "cube",
+					"from": [-5, -1.1, -4.5],
+					"to": [-4.5, -0.4, -4],
+					"faces": {
+						"north": {"texture": "#nintendods_shell.png", "uv": [15, 33, 15.5, 33.5]},
+						"east": {"texture": "#nintendods_shell.png", "uv": [33, 15, 33.5, 15.5]},
+						"south": {"texture": "#nintendods_shell.png", "uv": [16, 33, 16.5, 33.5]},
+						"west": {"texture": "#nintendods_shell.png", "uv": [33, 16, 33.5, 16.5]},
+						"up": {"texture": "#nintendods_shell.png", "uv": [17, 33, 17.5, 33.5]},
+						"down": {"texture": "#nintendods_shell.png", "uv": [33, 17, 33.5, 17.5], "rotation": 180}
+					}
+				},
+				{
+					"name": "bottom_screen_quad",
+					"from": [-4, -0.5, -4.5],
+					"to": [4, -0.5, 2.5],
+					"faces": {}
+				},
+				{
+					"name": "top_lid",
+					"from": [0, -0.1, 4],
+					"to": [0, -0.1, 4],
+					"rotationOrigin": [0, -0.1, 4],
+					"rotationX": 120,
+					"children": [
+						{
+							"name": "lid",
+							"from": [-8, -0.8, -9.1],
+							"to": [-7.5, 0.5, -0.5],
+							"faces": {
+								"north": {"texture": "#nintendods_shell.png", "uv": [32, 18, 32.5, 19.5]},
+								"east": {"texture": "#nintendods_shell.png", "uv": [25, 22, 33.5, 23.5]},
+								"south": {"texture": "#nintendods_shell.png", "uv": [19, 32, 19.5, 33.5]},
+								"west": {"texture": "#nintendods_shell.png", "uv": [25, 24, 33.5, 25.5]},
+								"up": {"texture": "#nintendods_shell.png", "uv": [0, 30, 0.5, 38.5]},
+								"down": {"texture": "#nintendods_shell.png", "uv": [1, 30, 1.5, 38.5], "rotation": 180}
+							}
+						},
+						{
+							"name": "lid",
+							"from": [-7.5, -0.5, -9.1],
+							"to": [7.6, 0.5, -0.5],
+							"faces": {
+								"north": {"texture": "#nintendods_shell.png", "uv": [10, 24, 25, 25]},
+								"east": {"texture": "#nintendods_shell.png", "uv": [24, 28, 32.5, 29]},
+								"south": {"texture": "#nintendods_shell.png", "uv": [10, 25, 25, 26]},
+								"west": {"texture": "#nintendods_shell.png", "uv": [0, 29, 8.5, 30]},
+								"up": {"texture": "#nintendods_shell.png", "uv": [16, 0, 31, 8.5]},
+								"down": {"texture": "#nintendods_shell.png", "uv": [16, 9, 31, 17.5], "rotation": 180}
+							}
+						},
+						{
+							"name": "lid",
+							"from": [7.6, -0.8, -9.1],
+							"to": [8, 0.5, -0.5],
+							"faces": {
+								"north": {"texture": "#nintendods_shell.png", "uv": [28, 32, 28.5, 33.5]},
+								"east": {"texture": "#nintendods_shell.png", "uv": [0, 26, 8.5, 27.5]},
+								"south": {"texture": "#nintendods_shell.png", "uv": [29, 32, 29.5, 33.5]},
+								"west": {"texture": "#nintendods_shell.png", "uv": [9, 26, 17.5, 27.5]},
+								"up": {"texture": "#nintendods_shell.png", "uv": [2, 30, 2.5, 38.5]},
+								"down": {"texture": "#nintendods_shell.png", "uv": [3, 30, 3.5, 38.5], "rotation": 180}
+							}
+						},
+						{
+							"name": "lid",
+							"from": [-8, -0.8, -9.5],
+							"to": [-7.5, 0.5, -9.1],
+							"faces": {
+								"north": {"texture": "#nintendods_shell.png", "uv": [25, 32, 25.5, 33.5]},
+								"east": {"texture": "#nintendods_shell.png", "uv": [26, 32, 26.5, 33.5]},
+								"south": {"texture": "#nintendods_shell.png", "uv": [32, 26, 32.5, 27.5]},
+								"west": {"texture": "#nintendods_shell.png", "uv": [27, 32, 27.5, 33.5]},
+								"up": {"texture": "#nintendods_shell.png", "uv": [30, 33, 30.5, 33.5]},
+								"down": {"texture": "#nintendods_shell.png", "uv": [33, 30, 33.5, 30.5], "rotation": 180}
+							}
+						},
+						{
+							"name": "lid",
+							"from": [-7.5, -0.8, -9.5],
+							"to": [7.5, 0.5, -9.1],
+							"faces": {
+								"north": {"texture": "#nintendods_shell.png", "uv": [16, 20, 31, 21.5]},
+								"east": {"texture": "#nintendods_shell.png", "uv": [20, 32, 20.5, 33.5]},
+								"south": {"texture": "#nintendods_shell.png", "uv": [0, 22, 15, 23.5]},
+								"west": {"texture": "#nintendods_shell.png", "uv": [32, 20, 32.5, 21.5]},
+								"up": {"texture": "#nintendods_shell.png", "uv": [9, 29, 24, 29.5]},
+								"down": {"texture": "#nintendods_shell.png", "uv": [24, 29, 39, 29.5], "rotation": 180}
+							}
+						},
+						{
+							"name": "lid",
+							"from": [7.5, -0.8, -9.5],
+							"to": [8, 0.5, -9.1],
+							"faces": {
+								"north": {"texture": "#nintendods_shell.png", "uv": [21, 32, 21.5, 33.5]},
+								"east": {"texture": "#nintendods_shell.png", "uv": [22, 32, 22.5, 33.5]},
+								"south": {"texture": "#nintendods_shell.png", "uv": [23, 32, 23.5, 33.5]},
+								"west": {"texture": "#nintendods_shell.png", "uv": [24, 32, 24.5, 33.5]},
+								"up": {"texture": "#nintendods_shell.png", "uv": [33, 27, 33.5, 27.5]},
+								"down": {"texture": "#nintendods_shell.png", "uv": [33, 28, 33.5, 28.5], "rotation": 180}
+							}
+						},
+						{
+							"name": "hinge",
+							"from": [-6, -0.5, -0.5],
+							"to": [6, 0.5, 0.5],
+							"faces": {
+								"north": {"texture": "#nintendods_shell.png", "uv": [18, 26, 30, 27]},
+								"east": {"texture": "#nintendods_shell.png", "uv": [32, 17, 33, 18]},
+								"south": {"texture": "#nintendods_shell.png", "uv": [18, 27, 30, 28]},
+								"west": {"texture": "#nintendods_shell.png", "uv": [18, 32, 19, 33]},
+								"up": {"texture": "#nintendods_shell.png", "uv": [0, 28, 12, 29]},
+								"down": {"texture": "#nintendods_shell.png", "uv": [12, 28, 24, 29], "rotation": 180}
+							}
+						},
+						{
+							"name": "top_screen_quad",
+							"from": [-4, -0.7, -8.2],
+							"to": [4, -0.7, -1.2],
+							"faces": {}
+						},
+						{
+							"name": "cube",
+							"from": [-1.3, 0.4, -6],
+							"to": [1.3, 0.6, -5.8],
+							"faces": {
+								"north": {"texture": "#nintendods_shell.png", "uv": [30, 30, 32.5, 30.5]},
+								"east": {"texture": "#nintendods_shell.png", "uv": [31, 33, 31.5, 33.5]},
+								"south": {"texture": "#nintendods_shell.png", "uv": [31, 0, 33.5, 0.5]},
+								"west": {"texture": "#nintendods_shell.png", "uv": [33, 31, 33.5, 31.5]},
+								"up": {"texture": "#nintendods_shell.png", "uv": [31, 1, 33.5, 1.5]},
+								"down": {"texture": "#nintendods_shell.png", "uv": [31, 2, 33.5, 2.5], "rotation": 180}
+							}
+						},
+						{
+							"name": "cube",
+							"from": [-1.5, 0.4, -6.8],
+							"to": [-1.3, 0.6, -6],
+							"faces": {
+								"north": {"texture": "#nintendods_shell.png", "uv": [32, 33, 32.5, 33.5]},
+								"east": {"texture": "#nintendods_shell.png", "uv": [30, 32, 31, 32.5]},
+								"south": {"texture": "#nintendods_shell.png", "uv": [33, 32, 33.5, 32.5]},
+								"west": {"texture": "#nintendods_shell.png", "uv": [31, 32, 32, 32.5]},
+								"up": {"texture": "#nintendods_shell.png", "uv": [32, 31, 32.5, 32]},
+								"down": {"texture": "#nintendods_shell.png", "uv": [32, 32, 32.5, 33], "rotation": 180}
+							}
+						},
+						{
+							"name": "cube",
+							"from": [1.3, 0.4, -6.8],
+							"to": [1.5, 0.6, -6],
+							"faces": {
+								"north": {"texture": "#nintendods_shell.png", "uv": [33, 33, 33.5, 33.5]},
+								"east": {"texture": "#nintendods_shell.png", "uv": [4, 33, 5, 33.5]},
+								"south": {"texture": "#nintendods_shell.png", "uv": [34, 0, 34.5, 0.5]},
+								"west": {"texture": "#nintendods_shell.png", "uv": [5, 33, 6, 33.5]},
+								"up": {"texture": "#nintendods_shell.png", "uv": [6, 33, 6.5, 34]},
+								"down": {"texture": "#nintendods_shell.png", "uv": [7, 33, 7.5, 34], "rotation": 180}
+							}
+						},
+						{
+							"name": "cube",
+							"from": [-1.3, 0.4, -7],
+							"to": [1.3, 0.6, -6.8],
+							"faces": {
+								"north": {"texture": "#nintendods_shell.png", "uv": [31, 3, 33.5, 3.5]},
+								"east": {"texture": "#nintendods_shell.png", "uv": [34, 1, 34.5, 1.5]},
+								"south": {"texture": "#nintendods_shell.png", "uv": [31, 4, 33.5, 4.5]},
+								"west": {"texture": "#nintendods_shell.png", "uv": [34, 2, 34.5, 2.5]},
+								"up": {"texture": "#nintendods_shell.png", "uv": [31, 5, 33.5, 5.5]},
+								"down": {"texture": "#nintendods_shell.png", "uv": [31, 6, 33.5, 6.5], "rotation": 180}
+							}
+						},
+						{
+							"name": "cube",
+							"from": [-1.3, 0.4, -4.7],
+							"to": [1.3, 0.6, -4.5],
+							"faces": {
+								"north": {"texture": "#nintendods_shell.png", "uv": [31, 7, 33.5, 7.5]},
+								"east": {"texture": "#nintendods_shell.png", "uv": [34, 4, 34.5, 4.5]},
+								"south": {"texture": "#nintendods_shell.png", "uv": [31, 8, 33.5, 8.5]},
+								"west": {"texture": "#nintendods_shell.png", "uv": [5, 34, 5.5, 34.5]},
+								"up": {"texture": "#nintendods_shell.png", "uv": [31, 9, 33.5, 9.5]},
+								"down": {"texture": "#nintendods_shell.png", "uv": [31, 10, 33.5, 10.5], "rotation": 180}
+							}
+						},
+						{
+							"name": "cube",
+							"from": [-1.5, 0.4, -5.5],
+							"to": [-1.3, 0.6, -4.7],
+							"faces": {
+								"north": {"texture": "#nintendods_shell.png", "uv": [34, 3, 34.5, 3.5]},
+								"east": {"texture": "#nintendods_shell.png", "uv": [8, 33, 9, 33.5]},
+								"south": {"texture": "#nintendods_shell.png", "uv": [4, 34, 4.5, 34.5]},
+								"west": {"texture": "#nintendods_shell.png", "uv": [9, 33, 10, 33.5]},
+								"up": {"texture": "#nintendods_shell.png", "uv": [10, 33, 10.5, 34]},
+								"down": {"texture": "#nintendods_shell.png", "uv": [11, 33, 11.5, 34], "rotation": 180}
+							}
+						},
+						{
+							"name": "cube",
+							"from": [-1.3, 0.4, -5.7],
+							"to": [1.3, 0.6, -5.5],
+							"faces": {
+								"north": {"texture": "#nintendods_shell.png", "uv": [31, 11, 33.5, 11.5]},
+								"east": {"texture": "#nintendods_shell.png", "uv": [34, 6, 34.5, 6.5]},
+								"south": {"texture": "#nintendods_shell.png", "uv": [12, 31, 14.5, 31.5]},
+								"west": {"texture": "#nintendods_shell.png", "uv": [7, 34, 7.5, 34.5]},
+								"up": {"texture": "#nintendods_shell.png", "uv": [31, 12, 33.5, 12.5]},
+								"down": {"texture": "#nintendods_shell.png", "uv": [31, 13, 33.5, 13.5], "rotation": 180}
+							}
+						},
+						{
+							"name": "cube",
+							"from": [1.3, 0.4, -5.5],
+							"to": [1.5, 0.6, -4.7],
+							"faces": {
+								"north": {"texture": "#nintendods_shell.png", "uv": [34, 5, 34.5, 5.5]},
+								"east": {"texture": "#nintendods_shell.png", "uv": [12, 33, 13, 33.5]},
+								"south": {"texture": "#nintendods_shell.png", "uv": [6, 34, 6.5, 34.5]},
+								"west": {"texture": "#nintendods_shell.png", "uv": [13, 33, 14, 33.5]},
+								"up": {"texture": "#nintendods_shell.png", "uv": [14, 33, 14.5, 34]},
+								"down": {"texture": "#nintendods_shell.png", "uv": [33, 14, 33.5, 15], "rotation": 180}
+							}
+						}
+					]
+				}
+			]
+		}
+	],
+	"animations": [
+		{
+			"name": "open",
+			"code": "open",
+			"quantityframes": 13,
+			"onActivityStopped": "Rewind",
+			"onAnimationEnd": "Hold",
+			"keyframes": [
+				{
+					"frame": 0,
+					"elements": {
+						"top_lid": {"rotationX": -120, "rotationY": 0, "rotationZ": 0}
+					}
+				},
+				{
+					"frame": 1,
+					"elements": {
+						"top_lid": {"rotationX": -120, "rotationY": 0, "rotationZ": 0}
+					}
+				},
+				{
+					"frame": 12,
+					"elements": {
+						"top_lid": {"rotationX": 0, "rotationY": 0, "rotationZ": 0}
+					}
+				}
+			]
+		}
+	]
+}
